@@ -80,11 +80,9 @@ nav ul li a:hover{
     border-radius: 25px;
     text-decoration: none;
     color: #fff;
-    /* 
-     */
-     background: linear-gradient(88.33deg, #6d25e1 -7.64%, #c42f2f 145.94%);
-box-shadow: 0px 2px 30px rgba(79, 17, 204, 0.5);
-border-radius: 100px;
+    background: linear-gradient(88.33deg, #6d25e1 -7.64%, #c42f2f 145.94%);
+    box-shadow: 0px 2px 30px rgba(79, 17, 204, 0.5);
+    border-radius: 100px;
 }
 
 /* Recipe */
@@ -147,6 +145,7 @@ border-radius: 100px;
 .read__btn a{
     text-decoration: none;
     color: #ff0404;
+    transition: 0.5s ease-in-out;
 }
 .read__btn:hover{
     background:#6d25e1;
@@ -174,6 +173,17 @@ border-radius: 100px;
 
 
   .pagination a:hover:not(.active) {background-color: #ff0404;}
+
+  /* subcription css */
+
+  .subcription-title{
+      text-align: center;
+      font-size: 30px;
+  }
+  .subcription-content{
+      text-align: center;
+      width:0 50%;
+  }
   
   /* Last menu */
 .last__menu{
